@@ -1,0 +1,130 @@
+/* Estilos generales */
+body {
+    background-color: #6f05f4; /* Morado neón */
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+}
+
+.login-container {
+    border-radius: 50px;
+    border: 1px solid #faf5f5;
+    padding: 30px;
+    width: 400px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.login-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+form input {
+    width: calc(100% - 20px);
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.button-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.button-container input[type="button"],
+.button-container input[type="submit"] {
+    padding: 12px 30px;
+    margin: 10px;
+    background-color: #ff6a00;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button-container input[type="button"]:hover,
+.button-container input[type="submit"]:hover {
+    background-color: #ff8c00;
+}
+
+h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    margin: 20px 0;
+    text-align: center;
+}
+
+h4 {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 0;
+    text-align: center;
+}
+
+body::before {
+    content: "";
+    color: white;
+    margin-right: 10px;
+}
+
+#tabla_ex {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.product-table {
+    width: 60%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.product-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.product-table th {
+    background-color: #ccc;
+    color: #000;
+    padding: 10px;
+}
+
+.orange-button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.orange-button {
+    background-color: rgb(254, 98, 7);
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.orange-button:hover {
+    background-color: rgb(0, 255, 85);
+}

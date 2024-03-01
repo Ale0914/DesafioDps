@@ -1,0 +1,92 @@
+body {
+  background-color: #6f05f4; 
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 20px;
+}
+
+h1 {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 18px;
+}
+
+select,
+input[type="number"],
+input[type="date"],
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button.boton {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+button.boton:hover {
+  background-color: #45a049;
+}
+
+h2 {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.movimientos-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.movimientos-gastos,
+.movimientos-ingresos {
+  flex-basis: 70%; 
+}
+
+.movimientos-gastos h3,
+.movimientos-ingresos h3 {
+  margin-top: 20px;
+  
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+.btn-danger {
+  background-color: #d9534f;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-danger:hover {
+  background-color: #c9302c;
+}
